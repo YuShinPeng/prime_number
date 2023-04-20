@@ -10825,26 +10825,43 @@ body {
 }
 
 .header {
-  width: 40%;
+  width: 50%;
   height: 10%;
   background-color: white;
-  margin-bottom: 20px;
+  color: #607C7D;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 20px;
 }
 .header h1, .header .h1 {
-  color: #607C7D;
+  padding-top: 15px;
 }
 
 .main {
-  width: 40%;
-  height: 7%;
   background-color: white;
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
 }
-.main .btn {
+.main .search {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main .search .btn {
   background-color: #607C7D;
   color: white;
 }
 .main .result {
-  width: 280px;
-  height: 20px;
-  background-color: lightblue;
+  font-size: 24px;
+  text-align: center;
+  word-wrap: break-word;
+  margin: 20px 20px;
 }/*# sourceMappingURL=all.css.map */

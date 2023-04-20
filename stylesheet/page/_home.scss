@@ -1,5 +1,6 @@
 $primary-color:#607C7D;
 
+
 body{
     width: 100vw;
     height: 100vh;
@@ -7,31 +8,49 @@ body{
 }
 
 
-
-
 .header{
-    width: 40%;
+    width: 50%;
     height: 10%;
     background-color: white;
-    margin-bottom: 20px;
+    color:$primary-color;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
     h1{
-        color:$primary-color;
+        padding-top: 15px;
     }
 }
 
 .main{
-    width: 40%;
-    height: 7%;
     background-color: white;
-    .btn{
-        background-color: $primary-color;
-        color:white;
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    .search{
+        display: flex;
+        justify-content: center;
+        height: 30%;
+        align-items: center;
+        justify-content: space-evenly;
+        .btn{
+            background-color: $primary-color;
+            color: white;
+        }
     }
+    
     .result{
-        width: 280px;
-        height: 20px;
-        background-color: lightblue;
+        font-size:24px;
+        text-align: center;
+        word-wrap: break-word;
+        margin:20px 20px;
     }
+    
 }
+
 
 
